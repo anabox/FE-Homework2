@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+h1{
+    text-align: center;
+}
+.about{
+    background-color: #FDA7DF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    
+}
+.about .description{
+    background-color: white;
+    border-radius: 10px;
+    width: 33%;
+    margin: 10px;
+    padding: 10px;
+}
+.about .description > img{
+ width: 200px;
+ border-radius: 50%;
+}
+.about .illustration {
+    width: 66%;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+.illustration .Odessa > a> img{
+    width: 80%;
+    display: block;
+    border-radius: 10%;   
+}
+.illustration .Berlin > a> img{
+    width: 80%;
+    display: block;
+    border-radius: 10%;      
+}
+.hobbies {
+    background-color:#12CBC4;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 40px auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.hobbies .illustration {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+     
+}
+.hobbies .description {
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.illustration .ukulele >a> img{
+    width: 80%;
+    border-radius: 10%; 
+    display: block 
+}
+.illustration .SiliconValley >a> img{
+    width: 80%;
+    border-radius: 10%;
+    display: block  
+}
+.illustration .standup >a> img{
+    width: 80%;
+    border-radius: 10%;
+    display: block  
+}
+.work {
+    background-color:#FFC312;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 40px auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.work .description{
+    background-color: white;
+    border-radius: 10px;
+    width: 33%;
+    margin: 10px;
+    padding: 10px;    
+}
+.work .illustration{
+    width: 66%;
+    display: flex;
+    margin: 20px;
+    padding: 20px;    
+}
+.illustration .pixua >a> img{
+    width: 80%;
+    border-radius: 10%;
+    display: block  
+}
+.illustration .youtube >a> img{
+    width: 80%;
+    border-radius: 10%;
+    display: block  
+}
+footer{
+    text-align: center;
+    border: 2px black solid;
+    margin: 5px;
+    padding: 5px;
+}
+footer > a > img{
+    width: 50px;
+}
